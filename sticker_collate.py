@@ -21,7 +21,7 @@ def main(csv_path):
         document_count = 1
         for row in csv_reader:
             poster_name = row[0].replace(" ", "") + ".pdf"
-            file_path = os.path.join("/Users/prepress-2/Documents/Posters_11x17", poster_name)
+            file_path = os.path.join("/Users/prepress-2/Documents/Stickers_2.5x4", poster_name)
             print(file_path)
 
             # Check is file can be found, if not make note for manual adjustment later on
