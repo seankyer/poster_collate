@@ -11,6 +11,7 @@ from pdfrw import PdfWriter
 MISSED_POSTERS = []
 
 
+
 def main(csv_path):
     with open(csv_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
